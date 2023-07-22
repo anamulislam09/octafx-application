@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="../../assets/css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="../../assets/css/home.css"/>
+    <title>octaFx</title>
+  </head>
+  <body>
+    <!-- header section start here  -->
+    <header>
+      <!-- header-top section start here  -->
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="../homePage/home.html"><img src="../../assets/image/logo.svg" alt="logo" /></a>
+            </div>
+            <div class="col-md-6">
+              <a href="#" class="regbutton" data-bs-toggle="modal" data-bs-target="#myModal">সাইন আপ করুন</a>
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Modal Heading</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="mb-3 mt-3">
+                          <label for="name" class="form-label">Full Name:</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter Full Name" name="name">
+                        </div>
+                        <div class="mb-3 mt-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter Your Valid email" name="email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+              
+              <a href="#" class="logbutton" data-bs-toggle="modal" data-bs-target="#loginModal">লগ-ইন</a>
+              <div class="modal" id="loginModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Modal Heading</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="mb-3 mt-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter Your Valid email" name="email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                      </form>
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+              <select name="" id="lang">
+                <option value="" selected>বাংলা</option>
+                <option value="" ‍>ইংরেজি</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- header-top section ends here  -->
+      </div>
+      <!-- header-menu section start here  -->
+      <div class="header-menu">
+        <div class="container">
+          <div class="menu-bar">
+            <button
+              type="button"
+              id="dropdownbtn"
+              class="btn dropdown-toggle "
+              data-bs-toggle="dropdown"
+            >
+              FX ট্রেডিং
+            </button>
+            <div class="dropdown-menu dropdown-text">
+              <ul class=" dwsection">
+                <p>আপনার আর্থিক</p>
+                <li><a class="dropdown-item" href="#">
+                  ডিপোজিট ও প্রত্যাহার</a></li>
+                <li><a class="dropdown-item" href="#">পেমেন্ট অপশন</a></li>
+                <li><a class="dropdown-item" href="#">নেগেটিভ ব্যালেন্স সুরক্ষা</a></li>
+                <li><a class="dropdown-item" href="#">ফান্ডের নিরাপত্তা</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>ট্রেডিংয়ের শর্তাবলী</p>
+                
+                <li><a class="dropdown-item" href="#">অ্যাকাউন্টের ধরন</a></li>
+                <li><a class="dropdown-item" href="#">ইসলামীয় অ্যাকাউন্ট</a></li>
+                <li><a class="dropdown-item" href="#">ডেমো অ্যাকাউন্ট</a></li>
+                <li><a class="dropdown-item" href="#">স্প্রেড ও শর্তাবলী</a></li>
+                <li><a class="dropdown-item" href="#">ট্রেডিংয়ের সুবিধাগুলি</a></li>
+                <li><a class="dropdown-item" href="#">কেন আমাদের চয়ন করবেন</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>সম্পত্তি</p>
+                <li><a class="dropdown-item" href="#">লাইভ কোটস্স</a></li>
+                <li><a class="dropdown-item" href="#">স্টক</a></li>
+                <li><a class="dropdown-item" href="#">সূচক</a></li>
+                <li><a class="dropdown-item" href="#">কারেন্সি পেয়ার</a></li>
+                <li><a class="dropdown-item" href="#">পণ্যসামগ্রী</a></li>
+                <li><a class="dropdown-item" href="#">ডেরিভেটিভস: স্টক এবং সূচক</a></li>
+                <li><a class="dropdown-item" href="#">সকল সম্পদ বা এসেট</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <h3>আমাদের সেরা স্প্রেড এবং শর্তাবলী</h3>
+                <li><a class="dropdown-item" href="#"><img src="../../assets/image/dw-img1.png" alt=""></li>
+                <li><a class="dropdown-item logbutton" href="#">আরো জানুন</a></li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              id="dropdownbtn"
+              class="btn dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              ট্রেডিং প্ল্যাটফর্ম
+            </button>
+            <div class="dropdown-menu dwcontent dropdown-text">
+              <ul class=" dwsection">
+                <p>METATRADER 4</p>
+                <li><a class="dropdown-item" href="https://mt4.octafx.com/?_ga=2.27289086.370460060.1689654957-548fda29-26ae-40e1-af16-0521b5b9b7dd">ওয়েব প্ল্যাটফর্ম</a></li>
+                <li><a class="dropdown-item" href="#">অ্যান্ড্রয়েড</a></li>
+                <li><a class="dropdown-item" href="#">উইন্ডোজ</a></li>
+                <li><a class="dropdown-item" href="#">ম্যাকওস</a></li>
+                <li><a class="dropdown-item" href="#">আরো জানুন</a></li>
+                <li><a class="dropdown-item" href="#">প্ল্যাটফর্মের তুলনা</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>METATRADER 5</p>
+                <li><a class="dropdown-item" href="#">ওয়েব প্ল্যাটফর্ম</a></li>
+                <li><a class="dropdown-item" href="#">অ্যান্ড্রয়েড</a></li>
+                <li><a class="dropdown-item" href="#">উইন্ডোজ</a></li>
+                <li><a class="dropdown-item" href="#">ম্যাকওস</a></li>
+                <li><a class="dropdown-item" href="#">আরো জানুন</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>OCTATRADER</p>
+                <li><a class="dropdown-item" href="#">ওয়েব প্ল্যাটফর্ম</a></li>
+                <li><a class="dropdown-item" href="#"></a>অ্যান্ড্রয়েড</li>
+                <li><a class="dropdown-item" href="#"></a>IOS</li>
+                <li><a class="dropdown-item" href="#">আরো জানুন</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <h3>OctaFX ট্রেডিং অ্যাপ</h3>
+                <li><a class="dropdown-item" href="#"><img src="../../assets/image/sw-img2.png" alt=""></a></li>
+                <li><a class="btn btn-dark" href="#"><span>এটি পান</span>
+                  Google Play</a></li>
+                <li><a class="btn btn-dark" href="#"><span>এটি পান</span>
+                  Google Play</a></li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              id="dropdownbtn"
+              class="btn dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              রেফারাল প্রোগ্রাম
+            </button>
+            <div class="dropdown-menu dwcontent dropdown-text">
+              <ul class=" dwsection">
+                <p>ইন্ট্রোডিউসিং ব্রোকারদের (IB) জন্য</p>
+                <li><a class="dropdown-item" href="../refarralProgram_page/ibPartner.html">IB অংশীদার প্রোগ্রাম</a></li>
+               
+              </ul>
+              <ul class=" dwsection">
+                <p>সক্রিয় ট্রেডারদের জন্য</p>
+                <li><a class="dropdown-item" href="../invitationPage/invitation.html">একজন-বন্ধুকে-আমন্ত্রণ-জানান প্রোগ্রাম</a></li>
+               
+              </ul>
+              <ul class=" dwsection">
+                
+                
+              </ul>
+              <ul class=" dwsection">
+                <h3>IB অংশীদার প্রোগ্রাম</h3>
+                <li><a class="dropdown-item" href="#"><img src="../../assets/image/sw-img3.png" alt=""></a></li>
+                <li><a class="dropdown-item logbutton" href="#">IB অংশীদার প্রোগ্রাম</a></li>
+                
+              </ul>
+            </div>
+
+            <button
+              type="button"
+              id="dropdownbtn"
+              class="btn dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+            প্রোমোশনগুলো
+            </button>
+            <div class="dropdown-menu dwcontent dropdown-text">
+              <ul class=" dwsection">
+                <p>প্রতিযোগিতাগুলো</p>
+                <li><a class="dropdown-item" href="#">Champion</a></li>
+                <li><a class="dropdown-item" href="#">আর্কাইভ</a></li>
+             
+              </ul>
+              <ul class=" dwsection">
+                <p>গিভঅ্যাওয়ে</p>
+                <li><a class="dropdown-item" href="#">
+                  Trade and Win</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>অফারগুলো</p>
+                <li><a class="dropdown-item" href="#">50% ডিপোজিট বোনাস</a></li>
+                <li><a class="dropdown-item" href="#">স্ট্যাটাস প্রোগ্রাম</a></li>
+                <li><a class="dropdown-item" href="#">রুপি ফিক্সড রেট (টাকার বাঁধা দর)</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <h3>Champion ডেমো প্রতিযোগিতা</h3>
+                <li><a class="dropdown-item" href="#"><img src="../../assets/image/sw-img4.png" alt=""></a></li>
+                <li><a href="" class="logbutton">পরের রাউন্ডে যোগ দিন</a></li>
+              </ul>
+            </div>
+            <button
+              type="button"
+              id="dropdownbtn"
+              class="btn dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+            বিশ্লেষণ ও শিক্ষা
+            </button>
+            <div class="dropdown-menu dwcontent dropdown-text">
+              <ul class=" dwsection">
+                <p>ট্রেডারদের টুলস্</p>
+                <li><a class="dropdown-item" href="#">ট্রেডারদের টুলস্</a></li>
+                <li><a class="dropdown-item" href="#">ট্রেডিং ক্যালকুলেটর</a></li>
+                <li><a class="dropdown-item" href="#">লাভ ক্যালকুলেটর</a></li>
+                <li><a class="dropdown-item" href="#">লাইভ কোটস</a></li>
+                <li><a class="dropdown-item" href="#"> মনিটরিং</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>অ্যানালিটিক্স</p>
+                <li><a class="dropdown-item" href="#">বাজারের তথ্য</a></li>
+                <li><a class="dropdown-item" href="#">অর্থনৈতিক ক্যালেন্ডার</a></li>
+                <li><a class="dropdown-item" href="#">বাজারের অন্তর্দৃষ্টি</a></li>
+                <li><a class="dropdown-item" href="#">ফরেক্স সংবাদ</a></li>
+                <li><a class="dropdown-item" href="#">সুদের হার</a></li>
+                <li><a class="dropdown-item" href="#">ছুটির দিনের ক্যালেন্ডার</a></li>
+              </ul>
+              <ul class=" dwsection">
+                <p>শিক্ষা</p>
+                <li><a class="dropdown-item" href="#">ফরেক্স বেসিক: আর্টিকেল</a></li>
+                <li><a class="dropdown-item" href="#">ফরেক্স বেসিক: ভিডিও কোর্স</a></li>
+                <li><a class="dropdown-item" href="#">প্ল্যাটফর্ম টিউটোরিয়াল: ভিডিও</a></li>
+                <li><a class="dropdown-item" href="#">প্ল্যাটফর্ম টিউটোরিয়াল: আর্টিকেল</a></li>
+                <li><a class="dropdown-item" href="#">শব্দভান্ডার</a></li>
+                <li><a class="dropdown-item" href="#">বারংবার জিজ্ঞাসিত প্রশ্নাবলী</a></li>
+              </ul>
+              <ul class=" dwsection">
+               
+              </ul>
+            </div>
+            <button
+            type="button"
+            id="dropdownbtn"
+            class="btn dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+          COPYTRADING
+          </button>
+          <div class="dropdown-menu dwcontent dropdown-text">
+            <ul class=" dwsection">
+              <p>কপিয়ারদের জন্য</p>
+              <li><a class="dropdown-item" href="#">Copytrading-এ যোগ দিন</a></li>
+              <li><a class="dropdown-item" href="#">কপিয়ার এলাকা</a></li>
+              <li><a class="dropdown-item" href="#">মাস্টার ট্রেডারদের রেটিং</a></li>
+            </ul>
+            <ul class=" dwsection">
+              <p>মাস্টার ট্রেডারদের জন্য</p>
+              <li><a class="dropdown-item" href="#">একজন মাস্টার ট্রেডার হয়ে উঠুন</a></li>
+              <li><a class="dropdown-item" href="#">মাস্টার এরিয়া</a></li>
+            </ul>
+            <ul class=" dwsection">
+              <p>তথ্য</p>
+              <li><a class="dropdown-item" href="#">নিময় এবং শর্তাবলী</a></li>
+             
+            </ul>
+            <ul class=" dwsection">
+              <h3>Copytrading অ্যাপ্লিকেশন</h3>
+              <li><a class="dropdown-item" href="#"><img src="../../assets/image/sw-img6.png" alt=""></a></li>
+              
+              <li><a class="btn btn-dark" href="#"><span>এটি পান</span>
+                Google Play</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-top section ends here  -->
+    </header>
+    <!-- header section ends here  -->
+    <!-- main section start here  -->
+    <main>
+      <!-- star section start here  -->
+      <div class="star">
+        <div class="container"> 
+          <div class="row">
+            <div class="col-md-6 star-left">
+              <h1>আপনার স্টার ট্র্যাক অনুসরণ করুন</h1>
+              <p>আমাদের প্ল্যাটফর্মে নিবন্ধন করুন, বিশ্বব্যাপী আর্থিক বাজারে ট্রেড করুন এবং একটি iMac, MacBook এবং অন্যান্য মহাজাগতিক পুরষ্কারের অনুসন্ধানে যোগ দিতে প্রস্তুত হন।</p>
+              <a href="" class="button">এখন নিবন্ধন করুন</a>
+            </div>
+            <div class="col-md-6 star-img">
+              <img src="../../assets/image/star-img.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- star section ends here  -->
+      <!-- investment section start here  -->
+      <div class="section">
+        <div class="container">
+          <div class="investment-header">
+            <h1>বিনিয়োগের জন্য আপনার নিরাপদ জায়গা</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-6 investment-l-content">
+              <div class="td-env">
+                <h3>স্বচ্ছ ট্রেডিং পরিবেশ</h3>
+                <ol>
+                  <li>0% সোয়াপ</li>
+                  <li>কোন কমিশন নেই</li>
+                  <li>আপনার পছন্দের পেমেন্ট পদ্ধতির মাধ্যমে নিরাপদ ডিপোজিট এবং উত্তোলন</li>
+                </ol>
+              </div>
+              <div class="td-env">
+                <h3>দৈনিক ট্রেডিং আইডিয়া</h3>
+                <ol>
+                  <li>আরও লাভজনক ট্রেডিংয়ের জন্য মূল্যবান টিপস পান।</li>
+                </ol>
+              </div>
+              <div class="td-env">
+                <h3>বিনামূল্যে শিক্ষা উপকরণ</h3>
+                <ol>
+                  <li>ট্রেডিংয়ের মৌলিক বিষয়গুলি সম্পর্কে আমাদের কোর্স দেখুন।</li>
+                  <li>নতুনদের এবং পেশাদারদের জন্য নিয়মিত ওয়েবিনার এবং লাইভ ট্রেডিং সেশনে যোগ দিন।</li>
+                </ol>
+              </div>
+            </div>
+            <div class="col-md-6 investment-r-img">
+              <div class="env-img">
+                <img src="https://www.octafx.com/assets/img/main-page-redesign/preview-bg.png" alt="">
+              </div>
+              
+              <div class="edu-img">
+                <img src="https://octacdn.net/assets/img/main-page-redesign/safe-preview3.avif?20b318b6c1dd89d55a657406bf1630887db2f4d1" alt="">
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+      <!-- investment section ends here  -->
+
+      <div class="section">
+        <div class="container">
+          <div class="gb-investment">
+            <div class="gb-header">
+              <h1>সেরা গ্লোবাল ব্রোকার এশিয়া 2022 এর সাথে বিনিয়োগ করুন</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-text">
+                    <h4>60+</h4>
+                    <p>পুরস্কার</p>
+                  </div>
+                  <div class="card-img">
+                    <img src="../../assets/image/card-img1.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-text">
+                    <h4>180+</h4>
+                    <p>দেশে উপলব্ধ</p>
+                  </div>
+                  <div class="card-img">
+                    <img src="../../assets/image/card-img2.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-text">
+                    <h4>40 মিলিয়ন+</h4>
+                    <p>অ্যাকাউন্ট খোলা হয়েছে</p>
+                  </div>
+                  <div class="card-img3">
+                    <img src="../../assets/image/card-img3.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-text">
+                    <h4>11 বছর</h4>
+                    <p>বাজারে</p>
+                  </div>
+                  <div class="card-img">
+                    <img src="../../assets/image/card-img4.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rating">
+            <div class="row">
+              <div class="col-md-3 review">
+                <h3>Excellent</h3>
+                <ul>
+                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star"   aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star-half-o half" aria-hidden="true"></i></li>
+                </ul>
+                <span>Based on <a href="">5,849 reviews
+                </a></span>
+                <h3 class="revTrust"><i class="fa fa-star" aria-hidden="true"></i>Trustpilot</h3>
+              </div>
+              <div class="col-md-9">
+                <div class="row">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                          <ul>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star"   aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <span id="licon" class="fa fa-check-circle" aria-hidden="true"></span>
+                            <span class="invited">Invited</span> 
+                          </ul>
+                          <div class="slider-content">
+                          <h4>Fast depo and withdraw</h4>
+                          <p>First deposit</p>
+                          <p>styland Ak Roland,27 March</p>
+                    </div>
+                    </div>
+                    <div class="item">
+                          <ul>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star"   aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <span id="licon" class="fa fa-check-circle" aria-hidden="true"></span>
+                            <span class="invited">Invited</span> 
+                          </ul>
+                          <div class="slider-content">
+                          <h4>Very good broker</h4>
+                          <p>Very good broker with 100% bonus new deposit and fast for withdraw</p>
+                          <p>stySugiri S,27 March</p>
+                    </div>
+                    </div>
+                    <div class="item">
+                          <ul>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star"   aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <span id="licon" class="fa fa-check-circle" aria-hidden="true"></span>
+                            <span class="invited">Invited</span> 
+                          </ul>
+                          <div class="slider-content">
+                          <h4>Good features to handle trades and easy to use...</h4>
+                          <p>Fast transaction 
+                            Professional customer service and support I highly recommend...</p>
+                          <p>Ahmad Mahmoud Saed Muhammad Al,27 March</p>
+                    </div>
+                    </div>
+                    <div class="item">
+                          <ul>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star"   aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <span id="licon" class="fa fa-check-circle" aria-hidden="true"></span>
+                            <span class="invited">Invited</span> 
+                          </ul>
+                          <div class="slider-content">
+                            <h4>Fast depo and withdraw</h4>
+                          <p>First deposit</p>
+                          <p>styland Ak Roland,27 March</p>
+                          </div>
+                    </div>
+                    <div class="item">
+                          <ul>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star"   aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                            <span id="licon" class="fa fa-check-circle" aria-hidden="true"></span>
+
+                            <span class="invited">Invited</span> 
+                          </ul>
+                          <div class="slider-content">
+                          <h4>Fast depo and withdraw</h4>
+                          <p>First deposit</p>
+                          <p>styland Ak Roland,27 March</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+              <div class="starbtn">
+                <a href="" class="button">আমাদের সাথে যোগ দিন</a>
+              </div>
+          </div>
+          </div>
+          </div>
+        </div>
+
+        <!-- effective investment section start here  -->
+
+        <div class="effective-investment">
+          <div class="container">
+            <div class="effective-header-content">
+              <h1>আপনার জন্য বিনিয়োগকে কার্যকর করা</h1>
+              <p>আপনার ট্রেডিং অভিজ্ঞতা আরও ভাল করার জন্য আমরা ক্রমাগত আমাদের পণ্য উন্নত করছি।</p>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="icon-top">
+                  <img src="../../assets/image/invest-icon-leverage1.jpg" alt="">
+                  <p>1:500 সর্বোচ্চ লিভারেজ অনুপাত</p>
+                </div>
+                <div class="icon-bottom">
+                  <div class="icon-top">
+                    <img src="../../assets/image/invest-icon-status2.jpg" alt="">
+                    <p>স্ট্যাটাস প্রোগ্রাম</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-top">
+                  <img src="../../assets/image/invest-icon-assets3.jpg" alt="">
+                  <p>230টি ট্রেডিং ইন্সট্রুমেন্ট</p>
+                </div>
+                <div class="icon-bottom">
+                  <div class="icon-top">
+                    <img src="../../assets/image/invest-icon-support4.jpg" alt="">
+                    <p>24/7 ইংরেজিতে গ্রাহক সহায়তা</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-top">
+                  <img src="../../assets/image/invest-icon-bonus5.jpg" alt="">
+                  <p>50% বোনাস</p>
+                </div>
+                <div class="icon-bottom">
+                  <div class="icon-top">
+                    <img src="../../assets/image/invest-icon-pairs6.jpg" alt="">
+                    <p>সাপ্তাহিক ছুটিতে ট্রেডিংয়ের জন্য 30টি ডিজিটাল কারেন্সি পেয়ার</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- effective investment section ends here  -->
+        <!-- barcode  section start here  -->
+
+        <div class="barcode">
+          <div class="container">
+            <div class="barcode-section">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="barcode-text">
+                    <h1>OctaFX ট্রেডিং অ্যাপ দিয়ে যেকোনো সময়ই ট্রেড করুন</h1>
+                    <p>যেকোনো ডিভাইস থেকে একটি নিখুত ট্রেডিং অভিজ্ঞতা উপভোগ করুন। আমাদের অ্যাপটি ডাউনলোড করুন এবং আপনি অফিসে, ছুটিতে বা বাড়িতে থাকুন না কেন আপনার অর্ডারগুলি ট্র্যাক করুন।</p>
+                    <img src="../../assets/image/qr-code.svg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                <div class="mobile-app-img">
+                  <img src="../../assets/image/mobile-app-image-desk.jpg" alt="">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- barcode  section ends here  -->
+      
+
+ 
+    </main>
+    <!-- header section ends here  -->
+    <!-- footer section start here  -->
+     <!-- app  section start here  -->
+     <div class="app-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <div class="app">
+              <p>অ্যাপটি পান</p>
+              <a href="">
+                
+                <img src="../../assets/image/app1.svg" alt="">
+                <p>ট্রেডিং অ্যাপ অ্যাকাউন্ট</p>
+                <span>এটা পাবেন <i class="fa fa-play" aria-hidden="true"></i><i class="fa fa-apple" aria-hidden="true"></i></span>
+              </a>
+              <a href="">
+                
+                <img src="../../assets/image/app2.svg" alt="">
+                <p>Copytrading অ্যাপ্লিকেশন </p>
+                <span class="sicon">এটা পাবেন <i class="fa fa-play" aria-hidden="true"></i></span>
+              </a>
+            </div>
+            <div class="social-icon">
+              <p>আমাদের অনুসরণ করুন</p>
+              <a href=""><img src="../../assets/image/social-img.svg" alt=""></a>
+              <ul>
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- app  section ends here  -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <p>&copy; 2023 Octa Markets Incorporated, নিবন্ধন নম্বর: 2023-00092। ই-মেইলে যোগাযোগ: support@octafx.com। নিবন্ধিত ঠিকানা: 1st Floor, Meridian Place, Choc Estate, Castries, Saint Lucia</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/96d4c26692.js" crossorigin="anonymous"></script>
+  <script src="../../assets/js/jquery-3.7.0.min.js"></script>
+  <script src="../../assets/js/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+  </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  ul li {
+    list-style-type: none;
+  }
+
+  .body{
+    background-image: url(../../assets/image/mainbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  /* header section start here */
+  select#lang {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.partner-logo {
+    width: 187px;
+    margin: auto;
+}
+
+.partner-logo a img {
+    width: 100%;
+}
+  /* header section ends here */

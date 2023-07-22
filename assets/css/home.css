@@ -1,0 +1,510 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+
+/* header section start here   */
+
+/* header-top section start here */
+.header-top {
+  padding: 25px 0px 15px 0px;
+  border-bottom: 1px solid #ddd;
+}
+.regbutton {
+  padding: 15px 40px;
+  background-color: #04103d;
+  margin-right: 15px;
+  color: white;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.logbutton {
+  padding: 15px 70px;
+  background-color: #ebeef7;
+  margin-right: 15px;
+  color: rgb(97, 13, 233);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #331303;
+  color: #fff;
+}
+.logbutton:hover {
+  background-color: #d8dffc;
+}
+#lang {
+  float: right;
+  border: none;
+}
+
+/* top header ends here */
+/* header menu start here */
+
+button#dropdownbtn:hover {
+  background: #f1f0f0;
+}
+.header-menu {
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd;
+}
+.dwsection {
+  width: 280px;
+  float: left;
+}
+
+.dwcontent {
+  padding-top: 20px;
+}
+
+button#dropdownbtn {
+  font-size: 14px;
+}
+
+.dropdown-menu.dropdown-text ul li a {
+  font-size: 13px;
+  padding: 10px 0px;
+}
+
+.dropdown-menu.dropdown-text ul p {
+  font-size: 13px;
+  padding: 10px 0px;
+  color: #000;
+  font-weight: 700;
+}
+
+.dropdown-menu.dropdown-text ul h3 {
+  font-size: 25px;
+  line-height: 37px;
+}
+
+ul.dwsection li a {
+  margin-bottom: 10px;
+}
+
+a.dropdown-item.logbutton {
+  text-align: center;
+  padding: 10px 20px !important;
+}
+/* header menu ends here */
+
+/*  main section start here */
+/* star section start here  */
+.star {
+  background: #010c48;
+  padding: 40px 0px;
+}
+
+.col-md-6.star-left {
+  padding-top: 50px;
+}
+.col-md-6.star-left h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 59px;
+}
+.star-left p {
+  color: #e3e3e3;
+  line-height: 30px;
+  padding: 10px 0px 40px 1px;
+}
+
+a.button {
+  background: #0026c2;
+  transition: 0.3s;
+  padding: 20px 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  font-weight: 600;
+}
+
+a.button:hover {
+  background: #041e8d;
+}
+
+.col-md-6.star-img img {
+  width: 100%;
+  padding-left: 100px;
+}
+/* star section ends here  */
+/*  investment section start here */
+.section {
+  background: #f3f5fe;
+  padding: 40px 0px;
+}
+
+.investment-header h1 {
+  padding: 40px 0px;
+  font-weight: 700;
+}
+
+.investment-header {
+  width: 780px;
+  margin: auto;
+}
+
+.investment-section {
+  background: #f3f5fe;
+  padding: 40px 0px;
+}
+
+.investment-header h1 {
+  padding: 40px 0px;
+  font-weight: 700;
+}
+
+.investment-header {
+  width: 780px;
+  margin: auto;
+}
+
+.col-md-6.investment-l-content {
+  padding-right: 20px;
+}
+
+.td-env {
+  padding: 20px;
+  border-radius: 30px;
+  margin: 20px 0px;
+  transition: 0.3s;
+  color: #333;
+}
+
+.td-env:hover {
+  background: #0026c2;
+  color: white;
+}
+
+.td-env h3 {
+  font-weight: 800;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.td-env ol li {
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.env-img {
+  position: absolute;
+}
+
+.edu-img img {
+  left: -30px;
+  top: -30px;
+  position: relative;
+}
+/*  investment section ends here */
+/*  global investment section start here */
+.card {
+  height: 165px;
+  border: none;
+}
+
+.card-text {
+  width: 126px;
+  position: absolute;
+  padding: 15px 0px 0px 15px;
+  margin-right: 5px;
+}
+
+.card-text h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.card-img {
+  width: 145px;
+  margin-left: 116px;
+  margin-top: 20px;
+}
+.card-img3 {
+  width: 153px;
+  margin-left: 108px;
+  margin-top: 0px;
+}
+
+.card-img3 img {
+  width: 100%;
+  height: 118%;
+}
+.card-img img {
+  width: 100%;
+}
+
+.gb-header {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.gb-header h1 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+/*  global investment section ends here */
+
+/*  star section start here */
+
+.rating {
+  background: white;
+  margin: 20px 0px;
+  padding: 25px 20px;
+  border-radius: 15px;
+}
+
+.col-md-3 h3 {
+  text-align: center;
+}
+
+.col-md-3 ul li {
+  background: #00b67a;
+  display: block;
+  float: left;
+  margin: 5px;
+  padding: 5px 7px;
+}
+
+.col-md-3 ul li i {
+  color: white;
+}
+
+i.fa.fa-star-half-o.half {
+  font-weight: 700;
+}
+
+.col-md-3.review {
+  text-align: center;
+}
+
+.col-md-3.review span {
+  font-size: 14px;
+}
+
+.col-md-3.review span a {
+  color: #444;
+  border-bottom: 1px solid #ddd;
+}
+
+h3.revTrust {
+  padding: 15px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3.revTrust i {
+  color: #00b67a;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.starbtn {
+  width: 1000px;
+  margin: auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+/* carusal start here  */
+.item {
+  text-align: initial;
+  margin-right: 50px;
+}
+
+.item ul {
+  display: table-footer-group;
+  margin-bottom: 15px;
+}
+
+.item ul li {
+  background: #00b67a;
+  display: block;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  padding: 0px 5px;
+}
+
+.item ul li i {
+  color: white;
+  font-size: 10px;
+}
+
+#licon {
+  color: #999;
+  font-size: 15px;
+  padding-top: 3px;
+  margin-left: 5px;
+}
+
+span.invited {
+  font-size: 12px;
+  font-weight: 600;
+  color: #444;
+  margin-left: 5px;
+}
+
+.item h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item p {
+  font-size: 12px;
+}
+
+/*  star section ends here */
+/*  effect investment section start here */
+.effective-investment {
+  padding: 60px 0px;
+}
+
+.effective-investment h1 {
+  padding: 20px 0px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.effective-investment p {
+  width: 380px;
+  padding-bottom: 21px;
+}
+
+.icon-top img {
+  display: block;
+  float: left;
+  margin-right: 25px;
+}
+
+.icon-top {
+  margin-bottom: 90px;
+}
+
+.icon-top p {
+  padding: 14px 73px 10px 0px;
+}
+/*  effect investment section ends here */
+/*  bar-code section ends here */
+.barcode-section {
+  background: #f3f5fe;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.barcode-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.barcode-text p {
+  line-height: 32px;
+  padding-bottom: 15px;
+}
+
+.barcode {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ddd;
+}
+/*  bar-code section ends here */
+
+/*  main section ends here */
+
+/* footer section start here */
+/*  app section start here */
+.app {
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+  position: relative;
+    width: 240px;
+}
+
+.app p {
+  font-size: 12px;
+  color: #555;
+}
+.app a {
+  display: block;
+  margin-bottom: 35px;
+}
+
+.app a img {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.app a span {
+  font-size: 10px;
+  top: 56px;
+  color: #777;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.app a span i {
+  margin: 0px 4px;
+  padding: 3px;
+  width: 16px;
+  text-align: center;
+  height: 16px;
+  background: #9b9595;
+  border-radius: 100%;
+  color: white;
+}
+
+.app-section {
+  padding: 40px 0px;
+}
+
+.social-icon p {
+  font-size: 12px;
+  color: #655555;
+}
+
+.social-icon a {
+}
+
+.social-icon ul li {
+  display: inline-block;
+  margin-right: 11px;
+}
+
+.social-icon ul li a {
+  color: #999;
+  transition: .3s;
+  font-size: 20px;
+}
+
+.social-icon ul {
+  margin-top: 14px;
+}
+
+.social-icon ul li a:hover {
+  color: #c9c5c5;
+}
+/*  app section ends here */
+.footer p {
+  font-size: 13px;
+  padding: 25px 0px;
+  border-top: 1px solid #ddd;
+}
